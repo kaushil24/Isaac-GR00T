@@ -61,7 +61,7 @@ class ArgsConfig:
     """Number of steps between saving checkpoints."""
 
     # Model parameters
-    base_model_path: str = "nvidia/GR00T-N1.5-3B"
+    base_model_path: str = "/mnt/amlfs-01/home/kkundalia/Isaac-GR00T/outputs/GR00T-N1.5-3B"
     """Path or HuggingFace model ID for the base model."""
 
     tune_llm: bool = False
